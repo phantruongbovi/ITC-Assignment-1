@@ -50,7 +50,6 @@ public class Server {
         cars.put("0", new Car("0", 21, "Truong"));
         cars.put("1", new Car("1", 21, "Trung"));
         cars.put("2", new Car("2", 22, "Trong"));
-        String json = gsonCar.toJson(cars);
     }
 
     public static void main(String[] args) throws InterruptedException {
